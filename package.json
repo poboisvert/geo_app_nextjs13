@@ -1,0 +1,47 @@
+{
+    "name": "vpnpreviews",
+    "version": "1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "start": "next start",
+        "lint": "eslint --fix .",
+        "check-types": "tsc --pretty --noEmit",
+        "check-format": "prettier --check .",
+        "check-lint": "eslint . --ext ts --ext tsx --ext js",
+        "format": "prettier --write .",
+        "prepare": "husky install",
+        "build": "next build"
+    },
+    "dependencies": {
+        "@next/env": "^13.4.9",
+        "@types/react-dom": "18.2.6",
+        "cookie": "^0.5.0",
+        "encoding": "^0.1.13",
+        "eslint-config-next": "latest",
+        "eslint-plugin-n": "^15.7.0",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "next": "13.4.4",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-is": "^18.2.0",
+        "sass": "^1.63.6",
+        "server-only": "^0.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.1",
+        "@types/react": "^18.2.14",
+        "@typescript-eslint/eslint-plugin": "^5.61.0",
+        "@typescript-eslint/parser": "^5.61.0",
+        "eslint": "^8.44.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-standard-with-typescript": "^36.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2",
+        "husky": "^8.0.3",
+        "prettier": "3.0.0",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.1.6"
+    }
+}
